@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Times,serif;
+    color: white;
+    background-color: black;
+}
+.container{
+    max-width: 90rem;
+    margin: 2rem auto;
+    padding: 0px 2rem;
+}
+.header{
+    
+    text-align: center;
+}
+.section > .title{
+    margin-bottom: 1rem;
+}
+.tribute{
+    display: flex;
+    grid-template-columns: 8fr 3fr;
+    max-width: 100%;
+    height:fit-content;
+    margin: 20px;
+    background: black;
+    color: rgb(249, 247, 247);
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.tributeblockqoute{
+    text-align: center;
+    font-size: larger;
+}
+.tribute img{
+    max-width: 60%;
+    height: 600px;
+}
+
+.tribute > blockquote > h1{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.bio{
+    margin: 2rem auto;
+    padding:0px 0.5rem;
+    max-width:40rem;
+}
+
+.bio > h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.bio > p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.bio > hr{
+    margin-top: 2rem;
+}
+.bio > p{
+    text-align: justify;
+}
+
